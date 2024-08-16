@@ -1,0 +1,36 @@
+html(lang="ja")
+  head 
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    title 安らぐところ
+    link(rel="stylesheet", href="/styles/poem.css")
+    link(rel="icon", href="/image/favicon.png", type="image/png")
+    script. 
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const images = document.querySelectorAll('img');
+        images.forEach((image) => {
+          image.setAttribute('draggable', 'false');
+          image.addEventListener('dragstart', (e) => {
+            e.preventDefault();
+          });
+        });
+      });
+  body 
+    main
+      h1 安らぐところ
+
+      .lpara
+        p 色んな要素や性質が重なり合っているところ。
+        p 安らぐとしたらそこだな。
+        p 己の中に或る新しい性質を見つけたら、俺はその断崖にしがみついていたけれど、
+        p 恐怖と矜持の間で構えちゃって、安らぐこともなかったよ。そういう癖。
+        p 運動だからね。単純化しちゃいけないっぽい。
+        p 重なってる、交差してるとこを意識する。
+        p たとえば体でいえば神経叢みたいな？
+
+    footer 
+      p.page
+        a(href="poem23.html") << back&nbsp;&nbsp;&nbsp;
+        a(href="/index.html") top
+        a(href="poem25.html") &nbsp;&nbsp;&nbsp;next >>
+      p © Copyright shinichi All Rights Reserved.

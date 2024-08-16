@@ -1,0 +1,39 @@
+html(lang="ja")
+  head 
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    title ナオヤ、首を傾げる
+    link(rel="stylesheet", href="/styles/poem15.css")
+    link(rel="icon", href="/image/favicon.png", type="image/png")
+    script. 
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const images = document.querySelectorAll('img');
+        images.forEach((image) => {
+          image.setAttribute('draggable', 'false');
+          image.addEventListener('dragstart', (e) => {
+            e.preventDefault();
+          });
+        });
+      });
+  body 
+    main
+      h1 ナオヤ、首を傾げる
+
+      .lpara
+        p ナオヤだけのもの。
+        p 我々には遠く及ばないもの。
+        p それがナオヤだけのものなら、ナオヤは首を傾げるしかない。
+        p それがナオヤにしか与えられていないのなら、
+        p ナオヤは首を傾げつつ、、みつめるしかない。
+        p それが誰かのものなら、万人のものなら、それでよかったんだけど。
+        p 「お前はどうしてそんなにかわいいの？」
+        p ナオヤ・光線
+        p ナオヤが首を傾げてその娘を愛すれば、側の俺から見ればそれが答えに映りそうだけど。
+        p 他人にはその直線のセンチ・メートルぐらいしか測れないし。
+
+    footer 
+      p.page
+        a(href="poem14.html") << back&nbsp;&nbsp;&nbsp;
+        a(href="/index.html") top
+        a(href="poem16.html") &nbsp;&nbsp;&nbsp;next >>
+      p © Copyright shinichi All Rights Reserved.

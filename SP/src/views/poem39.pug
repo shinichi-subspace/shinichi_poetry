@@ -1,0 +1,40 @@
+html(lang="ja")
+  head 
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    title 空間が好き！(I LOVE THE SPACE!)
+    link(rel="stylesheet", href="/styles/poem39.css")
+    link(rel="icon", href="/image/favicon.png", type="image/png")
+    script. 
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const images = document.querySelectorAll('img');
+        images.forEach((image) => {
+          image.setAttribute('draggable', 'false');
+          image.addEventListener('dragstart', (e) => {
+            e.preventDefault();
+          });
+        });
+      });
+  body 
+    main
+      h1 空間が好き！(I LOVE THE SPACE!)
+
+      .lpara
+        p 結局空間が好きです。
+        p 受動的様態も好きなのですが、空間が好きだからそれが好きなのか、
+        p 自身の雄性ホルモンによりそれが好きなのか、
+        p はたまた自身の能動性が好きだからそれが好きなのか、難しいところではあります。
+        p が、空間は量的なものではなく、鏡に反射された光の波(鏡ではないということ)のようなもの、
+        p またはその空洞自体ですので、究極いえば人間存在そのものが好きなのでしょう。
+        p ですが、やはり空間が好きという言葉に帰結したくなるのは、私自身、今以外にあまり興味がないからでしょうか。
+        p 二次的創作物はどこまでいっても現象です。
+        p 凡ゆるものは今が産んだし、感じられるものは鏡でしかないのですから。
+        p だから私は空間が好きです。あなたもきっと空間が好きです。
+        p 生きるもの(Living)は本質的に空間が好きなのです。
+
+    footer 
+      p.page
+        a(href="poem38.html") << back&nbsp;&nbsp;&nbsp;
+        a(href="/index.html") top
+        a(href="poem40.html") &nbsp;&nbsp;&nbsp;next >>
+      p © Copyright shinichi All Rights Reserved.

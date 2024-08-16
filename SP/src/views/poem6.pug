@@ -1,0 +1,53 @@
+html(lang="ja")
+  head 
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    title 千春の保護区
+    link(rel="stylesheet", href="/styles/poem.css")
+    link(rel="icon", href="/image/favicon.png", type="image/png")
+    script. 
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const images = document.querySelectorAll('img');
+        images.forEach((image) => {
+          image.setAttribute('draggable', 'false');
+          image.addEventListener('dragstart', (e) => {
+            e.preventDefault();
+          });
+        });
+      });
+  body 
+    main
+      h1 千春の保護区
+
+      .lpara
+        p 千春は音楽が好き。
+        p 堅いことを言うとシラけるし、感触の悪い言葉を言うと、
+        p 気マズくなるので、プレイに厳しいのが伝わってくる。
+        p 千春は自然や動植物が好き。
+        p 緑地とか、雲とか星とか、あと甘い幻想的なこととか。
+        p センチなものとか、ちゃちな芸をみると漫画のあの大きい汗みたい
+        p のが顔に浮かんでくるので、こどもの羊というわけではないのだ。
+        p 千春は優しい感じが好きなので、悪口を言わないし、
+        p 誰かを貶めたりすることはない。千春のそういうところが好きだ。
+        p 千春はあまり冒険しない。そういう欲がない。
+        p ささやかな暮らしで満足できるので、21世紀に向いている。
+        p 千春は気持ちいいことが好き。
+        p ちょっと崩れてる方がいいみたいなので、細かいことに拘るよりも、
+        p 気持ちいいことを待っている。意外とだらしない。その分、よゆうがある。
+        p 千春は現象、あらわれたものみたいなので、縋りつくのが難しい。
+        p 千春は強みも弱みもみせないので、本気で遊べない。のわりに、ふと戯れる。
+        p それは俺苦手なんだよな。
+        p 千春は右にも左にもいない。じゃあ真ん中に？そこにもいない。
+        p どこにいるんだよ。少なくとも俺の前にはいない。
+        p 彼女は遅れをとった。もう間に合わないと思ったのか。
+        p まだまだ遅くないぜ、って千春に伝えたい。それは乱暴か。
+        p でも、会えても千春はいない。
+        p 千春。千春は千春の好きなもの。
+        p 千春の保護区。千春は保護区。
+
+    footer 
+      p.page
+        a(href="poem5.html") << back&nbsp;&nbsp;&nbsp;
+        a(href="/index.html") top
+        a(href="poem7.html") &nbsp;&nbsp;&nbsp;next >>
+      p © Copyright shinichi All Rights Reserved.

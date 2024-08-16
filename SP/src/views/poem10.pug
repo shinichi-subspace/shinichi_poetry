@@ -1,0 +1,49 @@
+html(lang="ja")
+  head 
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    title カオス、絞り
+    link(rel="stylesheet", href="/styles/poem.css")
+    link(rel="icon", href="/image/favicon.png", type="image/png")
+    script. 
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const images = document.querySelectorAll('img');
+        images.forEach((image) => {
+          image.setAttribute('draggable', 'false');
+          image.addEventListener('dragstart', (e) => {
+            e.preventDefault();
+          });
+        });
+      });
+  body 
+    main
+      h1 カオス、絞り
+      .para
+        p 散らかっていていい。俺の部屋にまでは入ってこれないだろう。
+        p 好き勝手やって、騒げ。その音は、君達のものだ。
+        p 情報がメディアを通して無秩序を報せる。
+        p 自然で、結構だ。現実を感じられてうれしい。
+        p 思い通りにならない、想定外だから、たのしい。
+        p その分現実を縁取れるし。
+
+      .para
+        p 種があれば、カオスの意味合いが変わる。
+        p 散らかっているかはどうでもよくなる。
+        p やることが多すぎる。
+
+      .lpara
+        p あるときはこの無秩序に疲れ果てていた。
+        p 「わからない」「把握しきれない」ことの圧力が暴力におもえたからだ。
+        p んなものはない。
+        p 全ては己の内に育つか否かである。
+        p 歴史・学術・芸術、全てそうだ。
+        p 有るものは育つ、無いものはあるところから持ってくればいい。
+        p 教育の光。ともしび。
+        p 育つにはカオスが必要。それが新しければ尚更だろう。
+
+    footer 
+      p.page
+        a(href="poem9.html") << back&nbsp;&nbsp;&nbsp;
+        a(href="/index.html") top
+        a(href="poem11.html") &nbsp;&nbsp;&nbsp;next >>
+      p © Copyright shinichi All Rights Reserved.

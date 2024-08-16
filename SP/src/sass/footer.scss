@@ -1,0 +1,14 @@
+footer {
+    user-select: none;
+    text-align: center;
+    margin-top: 5%;
+    @include respond-to("phone") {
+        font-size: 10px;
+    }
+    @include respond-to("tablet") {
+        font-size: 12px;
+    }
+    @include respond-to("desktop") {
+        font-size: 14px;
+    }
+}

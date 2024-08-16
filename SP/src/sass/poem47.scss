@@ -1,0 +1,13 @@
+@import 'poem';
+
+$h1-font-size: 28px;
+
+body {
+    main {
+        h1 {
+            @include respond-to("phone"){
+            font-size: $h1-font-size;
+            }
+        }
+            }      
+    }

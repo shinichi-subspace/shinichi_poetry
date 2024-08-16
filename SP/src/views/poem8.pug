@@ -1,0 +1,62 @@
+html(lang="ja")
+  head 
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    title 詩
+    link(rel="stylesheet", href="/styles/poem.css")
+    link(rel="icon", href="/image/favicon.png", type="image/png")
+    script. 
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const images = document.querySelectorAll('img');
+        images.forEach((image) => {
+          image.setAttribute('draggable', 'false');
+          image.addEventListener('dragstart', (e) => {
+            e.preventDefault();
+          });
+        });
+      });
+  body 
+    main
+      h1 詩
+      .para
+        p 事の成り行きが想い出され、
+        p 詩であったことを確かめる。
+        p 詩は詩でありながら、様々な形態へと
+        p 流れ出ていく。
+        p 存在に詩は読まれ、意識されたそれは
+        p 言葉になる。
+        p 存在が言葉を憶え、使い、それは
+        p 文になる。時間になる。
+        p この成り行きも詩の中で起こる。
+
+      .para
+        p 我々が存在であるとき、我々は詩である。
+        p 我々が存在でない時、我々は文字に過ぎない。
+        p だが、誰かが存在であるならば、言葉になる可能性がある。
+        p 存在の記憶だけを時間と定めれば、文字は失せるが、
+        p それは逆説的に時間そのものを否定してしまっていて、矛盾している。
+        p 詩を読む一連、詩の中には、主体、客体、媒体がある。
+        p 詩はそれらを強調したり、曖昧にしたり、拡大したりする。
+        p 詩はこのような働き方をするので、存在と非存在という
+        p 根本的な矛盾が最も詩的な感じとして響いてこないだろうか。
+        p 存在と非存在。交わるも詩的。
+        p 断絶するも詩的。
+        p 跳躍するも詩的。その過程も詩的。諦めも、囚われも詩的に。
+        p 詩的であるならば、著した者も、読む者も、そのメディアも詩的である。
+        p そして、詩的なそれは主・客の境目を意識させつつも、その反動力
+        p で境を無くしている。
+
+      .para
+        p 君は私の詩に在る。
+        p 私も君の詩に在るかもしれない。
+        p 私は只、文字として在ればいい。言葉にするのは君なのだ。
+
+      .lpara
+        p 動いて、活きなさい。独りに成るまで。
+
+    footer 
+      p.page
+        a(href="poem7.html") << back&nbsp;&nbsp;&nbsp;
+        a(href="/index.html") top
+        a(href="poem9.html") &nbsp;&nbsp;&nbsp;next >>
+      p © Copyright shinichi All Rights Reserved.

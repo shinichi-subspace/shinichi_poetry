@@ -1,0 +1,49 @@
+html(lang="ja")
+  head 
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    title 長い旅を終えて
+    link(rel="stylesheet", href="/styles/poem.css")
+    link(rel="icon", href="/image/favicon.png", type="image/png")
+    script. 
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const images = document.querySelectorAll('img');
+        images.forEach((image) => {
+          image.setAttribute('draggable', 'false');
+          image.addEventListener('dragstart', (e) => {
+            e.preventDefault();
+          });
+        });
+      });
+  body 
+    main
+      h1 長い旅を終えて
+      .para
+        p 長い、長い旅をした。
+        p 最後の悪足掻きで、僕はエネルギーを使い果たし、
+        p 旅の疲れを癒やすような軌道に乗りこんだ。
+        p 疲れた〜。
+        p 旅の中で出会った人々も疲れていた。それでも、僕に微笑んでいた。
+        p そんな顔やあんな顔をされたら、
+        p 二度はないんだなって思い知らされて、痛い。
+        p 自宅に着いたらめちゃくちゃに泣いてしまいました。
+
+      .para
+        p 俺はこの旅で我に帰った。
+        p もうどこにも行かないだろう。
+        p けど旅はまだまだ続くぜ！笑
+
+      .para
+        p あとがき
+
+      .lpara
+        p そうそう、旅って続くんだよな、なぜか。何度続けられたことか(笑)
+        p 次の旅は、迷わず行きたい所に行くよ。本当に見たいもの、行きたい場所。
+        p そういうのがはっきりしてきたよ。とてもはっきりと。
+        
+    footer 
+      p.page
+        a(href="poem22.html") << back&nbsp;&nbsp;&nbsp;
+        a(href="/index.html") top
+        a(href="poem24.html") &nbsp;&nbsp;&nbsp;next >>
+      p © Copyright shinichi All Rights Reserved.

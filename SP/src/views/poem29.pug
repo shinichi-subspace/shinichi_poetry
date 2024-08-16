@@ -1,0 +1,35 @@
+html(lang="ja")
+  head 
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    title 御水
+    link(rel="stylesheet", href="/styles/poem.css")
+    link(rel="icon", href="/image/favicon.png", type="image/png")
+    script. 
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const images = document.querySelectorAll('img');
+        images.forEach((image) => {
+          image.setAttribute('draggable', 'false');
+          image.addEventListener('dragstart', (e) => {
+            e.preventDefault();
+          });
+        });
+      });
+  body 
+    main
+      h1 御水
+
+      .lpara
+        p 俺は、あの瞬間にあなたが居てくれなかったら駄目でした。
+        p 流し方が分からなくて….
+        p 「善かったね」と笑えば
+        p 俺はただそれを待っていただけなんです。
+        p それだけで何もかも手放せたのです。
+        p 運命、あなたはそのために生まれ、死んでいったのですか？
+
+    footer 
+      p.page
+        a(href="poem28.html") << back&nbsp;&nbsp;&nbsp;
+        a(href="/index.html") top
+        a(href="poem30.html") &nbsp;&nbsp;&nbsp;next >>
+      p © Copyright shinichi All Rights Reserved.

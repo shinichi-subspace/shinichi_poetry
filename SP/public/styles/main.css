@@ -1,0 +1,260 @@
+header {
+  text-align: center;
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  header {
+    margin-bottom: 1%;
+  }
+}
+header .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  user-select: none;
+  text-align: center;
+  margin-top: 5%;
+}
+@media (max-width: 670px) {
+  footer {
+    font-size: 10px;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  footer {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  footer {
+    font-size: 14px;
+  }
+}
+
+main {
+  margin-top: 1%;
+  margin-left: 19%;
+  margin-right: 19%;
+}
+@media (max-width: 670px) {
+  main {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  main {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  main {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+main .fl {
+  display: flex;
+  user-select: none;
+}
+@media (max-width: 670px) {
+  main .fl {
+    margin-bottom: 8%;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  main .fl {
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  main .fl {
+    margin-bottom: 6%;
+  }
+}
+main .fl p {
+  margin: 0;
+  position: relative;
+  left: 12%;
+  top: 1px;
+  font-size: 18px;
+}
+@media (max-width: 670px) {
+  main .fl p {
+    font-size: 13px;
+    position: relative;
+    left: 17%;
+    top: 2px;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  main .fl p {
+    position: relative;
+    left: 11%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  main .fl p {
+    position: relative;
+    left: 19%;
+  }
+}
+main .fl .button {
+  position: absolute;
+  text-decoration: none;
+  padding: 2px 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-left: 50%;
+  color: inherit;
+}
+@media (max-width: 670px) {
+  main .fl .button {
+    position: absolute;
+    left: 5%;
+    font-size: 13px;
+    padding: 1px 6px;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  main .fl .button {
+    position: absolute;
+    left: 21%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  main .fl .button {
+    position: absolute;
+    left: 17%;
+  }
+}
+main .fl .button:hover {
+  border-color: transparent;
+}
+main .sl {
+  user-select: none;
+  margin-top: 3%;
+}
+@media (max-width: 670px) {
+  main .sl {
+    display: grid;
+    place-items: center;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  main .sl {
+    display: grid;
+    place-items: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  main .sl {
+    display: grid;
+    place-items: center;
+  }
+}
+main .sl .randombutton {
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(255, 165, 0, 0.5), rgba(255, 255, 0, 0.5), rgba(0, 128, 0, 0.5), rgba(0, 0, 255, 0.5), rgba(75, 0, 130, 0.5), rgba(238, 130, 238, 0.5));
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 4px;
+  margin-left: 86%;
+  color: white;
+  font-size: 18px;
+}
+@media (max-width: 670px) {
+  main .sl .randombutton {
+    margin: auto;
+    padding: 3px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  main .sl .randombutton {
+    margin: auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  main .sl .randombutton {
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  main .sl .randombutton {
+    margin-left: 80%;
+  }
+}
+main ul {
+  position: static;
+  left: 20%;
+  margin-top: 12%;
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  main ul {
+    margin-top: 12%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  main ul {
+    margin-top: 12%;
+  }
+}
+main ul li {
+  font-size: 19px;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  padding: 1% 0;
+}
+@media (max-width: 670px) {
+  main ul li {
+    margin-bottom: 3%;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  main ul li {
+    margin-bottom: 3%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  main ul li {
+    margin-bottom: 3%;
+  }
+}
+main ul li a {
+  text-decoration: none;
+}
+@media (max-width: 670px) {
+  main ul li a {
+    font-size: 14px;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  main ul li a {
+    font-size: 15px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  main ul li a {
+    font-size: 22px;
+  }
+}
+main ul li a:link, main ul li a:visited {
+  text-decoration: none;
+}

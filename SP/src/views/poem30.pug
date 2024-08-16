@@ -1,0 +1,38 @@
+html(lang="ja")
+  head 
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    title まあ、OK
+    link(rel="stylesheet", href="/styles/poem.css")
+    link(rel="icon", href="/image/favicon.png", type="image/png")
+    script. 
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const images = document.querySelectorAll('img');
+        images.forEach((image) => {
+          image.setAttribute('draggable', 'false');
+          image.addEventListener('dragstart', (e) => {
+            e.preventDefault();
+          });
+        });
+      });
+  body 
+    main
+      h1 まあ、OK
+      .para
+        p 説明がムズい。できやしない。
+        p 光とともに、上(カミ)とともに。
+        p 誰がどう受け止めるんだよ(笑)
+
+      .lpara
+        p いやー、あのう、あいっていうのはね、
+        p そっけなくて満ち溢れてる。そういうものなんだけど。
+        p それがないと届かないの....
+        p だから、今日も、あんなことやこんなことも、
+        p OKなんだよ。だってしょうがないもん。
+        
+    footer 
+      p.page
+        a(href="poem29.html") << back&nbsp;&nbsp;&nbsp;
+        a(href="/index.html") top
+        a(href="poem31.html") &nbsp;&nbsp;&nbsp;next >>
+      p © Copyright shinichi All Rights Reserved.

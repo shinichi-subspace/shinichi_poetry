@@ -1,0 +1,168 @@
+body main {
+  font-family: "Hiragino Mincho Pro";
+  margin-left: 22%;
+  margin-right: 22%;
+}
+@media (max-width: 670px) {
+  body main {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  body main {
+    margin-left: 17%;
+    margin-right: 17%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  body main {
+    margin-left: 16%;
+    margin-right: 16%;
+  }
+}
+body main .para {
+  margin-bottom: 8%;
+}
+@media (max-width: 670px) {
+  body main .para {
+    margin-bottom: 18%;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  body main .para {
+    margin-bottom: 14%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  body main .para {
+    margin-bottom: 13%;
+  }
+}
+body main .lpara {
+  margin-bottom: 20%;
+}
+body main h1 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 41px;
+  margin-top: 3%;
+  margin-bottom: 9%;
+}
+@media (max-width: 670px) {
+  body main h1 {
+    margin-bottom: 15%;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  body main h1 {
+    margin-bottom: 15%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  body main h1 {
+    margin-bottom: 15%;
+  }
+}
+body main p {
+  font-size: 20px;
+}
+@media (max-width: 670px) {
+  body main p {
+    font-size: medium;
+  }
+}
+
+footer {
+  margin-top: 9%;
+  text-align: center;
+  user-select: none;
+}
+@media (max-width: 670px) {
+  footer {
+    font-size: 10px;
+  }
+}
+footer a {
+  text-decoration: none;
+  font-size: 25px;
+  color: inherit;
+}
+@media (max-width: 670px) {
+  footer a {
+    font-size: 20px;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  footer a {
+    font-size: 23px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  footer a {
+    font-size: 23px;
+  }
+}
+footer a a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 670px) {
+  body main h1 {
+    font-size: 31px;
+  }
+}
+body main .blockquote blockquote {
+  padding: 3% 3%;
+  border-left: 3px solid #ccc;
+  font-style: italic;
+  color: #666;
+  background-color: #f9f9f9;
+  margin: auto;
+}
+@media (max-width: 670px) {
+  body main .blockquote blockquote .para {
+    margin-bottom: 9%;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  body main .blockquote blockquote .para {
+    margin-bottom: 9%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  body main .blockquote blockquote .para {
+    margin-bottom: 9%;
+  }
+}
+body main .blockquote blockquote p {
+  margin: 1%;
+}
+body main .work {
+  font-size: smaller;
+  text-align: right;
+}
+@media (max-width: 670px) {
+  body main .work {
+    text-align: center;
+  }
+}
+body main .rpara {
+  margin-top: 9%;
+  margin-bottom: 10%;
+}
+body main .video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .video-container iframe {
+  width: 560px;
+  height: 315px;
+}
+@media (max-width: 670px) {
+  body main .video-container iframe {
+    max-width: 92%;
+    height: auto;
+  }
+}

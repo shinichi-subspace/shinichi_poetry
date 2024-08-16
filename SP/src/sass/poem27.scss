@@ -1,0 +1,66 @@
+@import 'poem';
+
+$h1-font-size: 31px;
+
+body {
+    main {
+        h1 {
+            @include respond-to("phone"){
+            font-size: $h1-font-size;
+            }
+        }
+        .blockquote {
+            blockquote {
+              padding: 3% 3%;
+              border-left: 3px solid #ccc;
+              font-style: italic;
+              color: #666;
+              background-color: #f9f9f9;
+              margin: auto;
+              @include respond-to("phone") {
+                .para {
+                    margin-bottom: 9%;
+                }
+              }
+              @include respond-to("tablet") {
+                .para {
+                    margin-bottom: 9%;
+                }
+              }
+              @include respond-to("large-tablet-small-desktop") {
+                .para {
+                    margin-bottom: 9%;
+                }
+              }
+              p {
+                margin: 1%;
+              }
+            }
+          }
+        .work {
+            font-size: smaller;
+            text-align: right;
+            @include respond-to("phone") {
+                text-align: center;
+            }
+        }
+        .rpara {
+            margin-top: 9%;
+            margin-bottom: 10%;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            iframe {
+                width: 560px;
+                height: 315px;
+                @include respond-to("phone") {
+                    max-width: 92%;
+                    height: auto;
+                }
+            }
+          }
+        }
+      }      

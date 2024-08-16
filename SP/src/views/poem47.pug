@@ -1,0 +1,30 @@
+html(lang="ja")
+  head 
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    title あなたの絵を描きたいです
+    link(rel="stylesheet", href="/styles/poem47.css")
+    link(rel="icon", href="/image/favicon.png", type="image/png")
+    script. 
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const images = document.querySelectorAll('img');
+        images.forEach((image) => {
+          image.setAttribute('draggable', 'false');
+          image.addEventListener('dragstart', (e) => {
+            e.preventDefault();
+          });
+        });
+      });
+  body 
+    main
+      h1 あなたの絵を描きたいです
+
+      .lpara
+        p ああ、青。青だ。特徴的な鼻、口が好き。う〜ん、あなたは素敵だ。絵を描きたい。あなたの絵を描きたいです。決して捉えることはできませんが、あなたの姿を写したいです。ぜひ、そうしたいです。
+       
+    footer 
+      p.page
+        a(href="poem46.html") << back&nbsp;&nbsp;&nbsp;
+        a(href="/index.html") top
+        a(href="poem48.html") &nbsp;&nbsp;&nbsp;next >>
+      p © Copyright shinichi All Rights Reserved.

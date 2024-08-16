@@ -1,0 +1,75 @@
+html(lang="ja")
+  head 
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    title Ah....
+    link(rel="stylesheet", href="/styles/poem.css")
+    link(rel="icon", href="/image/favicon.png", type="image/png")
+    script. 
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const images = document.querySelectorAll('img');
+        images.forEach((image) => {
+          image.setAttribute('draggable', 'false');
+          image.addEventListener('dragstart', (e) => {
+            e.preventDefault();
+          });
+        });
+      });
+  body 
+    main
+      h1 Ah....
+      .para
+        p 悲しみに
+        p 暮れるあなたに
+        p かける言葉は
+        p Ah....
+
+      .para
+        p あなたに出逢い
+        p 世界は二人
+        p ささやく言葉は
+        p Ah....
+
+      .para  
+        p 夏になり
+        p 滴る汗と
+        p 溢れる言葉は
+        p Ah....
+
+      .para
+        p 広い海
+        p 広すぎる海
+        p つぶやく言葉は
+        p Ah....
+
+      .para
+        p ささやかな
+        p 手土産持ち寄り
+        p 交わす言葉は
+        p Ah....
+
+      .para
+        p 検閲を
+        p すり抜けたのは
+        p 君から届いた
+        p Ah....
+      .para 
+        p ただ一人
+        p その一人だけ
+        p 浮かべて弾ける
+        p Ah....
+
+      .para 
+        p もう二度と
+        p 会えない人に
+        p 送る言葉は
+
+      .lpara
+        p ....
+
+    footer 
+      p.page
+        a(href="poem12.html") << back&nbsp;&nbsp;&nbsp;
+        a(href="/index.html") top
+        a(href="poem14.html") &nbsp;&nbsp;&nbsp;next >>
+      p © Copyright shinichi All Rights Reserved.

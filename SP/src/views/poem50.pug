@@ -1,0 +1,51 @@
+html(lang="ja")
+  head 
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    title やめられない・性
+    link(rel="stylesheet", href="/styles/poem.css")
+    link(rel="icon", href="/image/favicon.png", type="image/png")
+    script. 
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const images = document.querySelectorAll('img');
+        images.forEach((image) => {
+          image.setAttribute('draggable', 'false');
+          image.addEventListener('dragstart', (e) => {
+            e.preventDefault();
+          });
+        });
+      });
+  body 
+    main
+      h1 やめられない・性
+      .para
+        p 俺は全然いいと思ったけどな。その生き方。
+        p 服や武器を脱いでいくにつれ、どんなにか、自分が
+        p 偽物の姿・形に投影していたか、わかっただろ？
+        p 俺はそれを、いいねって言ってるわけ。
+
+      .para
+        p 楽しすぎるだろ？やめられないだろ？
+        p ちょっと今回の人生は、楽しすぎるだろ？
+
+      .para
+        p ああ、脱ぐ快感を君は覚えた。
+        p 「こんなに綺麗だったなんて....」
+        p 「こんなにも、続きがあったなんて！」
+
+      .para
+        p 抱きしめてもいいし、
+        p 殺してもいいよ。
+        p また、平凡な、何の気づきもない繰り返しに戻っても、
+        p 全然、O・K 。あえて、O・Kじゃなくて、全然、O・K 。
+        p 問題なし、です。
+
+      .lpara
+        p どう思う？やばいだろ…
+
+    footer 
+      p.page
+        a(href="poem49.html") << back&nbsp;&nbsp;&nbsp;
+        a(href="/index.html") top
+        a(href="poem51.html") &nbsp;&nbsp;&nbsp;next >>
+      p © Copyright shinichi All Rights Reserved.

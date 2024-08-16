@@ -1,0 +1,39 @@
+html(lang="ja")
+  head 
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    title 花、渦 (2)
+    link(rel="stylesheet", href="/styles/poem.css")
+    link(rel="icon", href="/image/favicon.png", type="image/png")
+    script. 
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const images = document.querySelectorAll('img');
+        images.forEach((image) => {
+          image.setAttribute('draggable', 'false');
+          image.addEventListener('dragstart', (e) => {
+            e.preventDefault();
+          });
+        });
+      });
+  body 
+    main
+      h1 花、渦 (2)
+      .para
+        p 花の内奥。
+        p 渦巻く否定的な感情。
+        p 形の秘密。生きる意味(死にたくなる理由)。悲しみ。
+
+      .lpara
+        p とりあえず、えっと….
+        p 好きかな....
+        p どうなんだろう。
+        p あ、そうそう、面白いし、可愛げがある。魅力的です。
+        p そうそう、魅力的なんです。魅力的でないと困るのです....
+        p .....................................!
+
+    footer 
+      p.page
+        a(href="poem27.html") << back&nbsp;&nbsp;&nbsp;
+        a(href="/index.html") top
+        a(href="poem29.html") &nbsp;&nbsp;&nbsp;next >>
+      p © Copyright shinichi All Rights Reserved.

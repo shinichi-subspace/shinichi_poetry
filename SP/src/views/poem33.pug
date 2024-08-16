@@ -1,0 +1,39 @@
+html(lang="ja")
+  head 
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    title 沈黙が
+    link(rel="stylesheet", href="/styles/poem.css")
+    link(rel="icon", href="/image/favicon.png", type="image/png")
+    script. 
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const images = document.querySelectorAll('img');
+        images.forEach((image) => {
+          image.setAttribute('draggable', 'false');
+          image.addEventListener('dragstart', (e) => {
+            e.preventDefault();
+          });
+        });
+      });
+  body 
+    main
+      h1 沈黙が
+
+      .lpara
+        p 愚か者たちの喧騒に巻き込まれた少年の、
+        p 何とも言えない静かな目には、
+        p ただこれから、大人たちの排泄物を処理するために、
+        p 時間を使っていくことになるでしょう....という諦観が含まれていた。
+        p 沈黙はそれを悲しみとして、流れた。
+        p そして沈黙それ自体は、運動としての可能性を全て含んでいるので、
+        p この悲しみの連鎖を断ち切る意思を見出すかもしれない。
+        p そしてその意思こそ沈黙なのだ。
+        p あの日流れた沈黙は、必ずあなたを追いかけ、流れ着くだろう。
+        p 悲しみこそが祈りなのだ。
+
+    footer 
+      p.page
+        a(href="poem32.html") << back&nbsp;&nbsp;&nbsp;
+        a(href="/index.html") top
+        a(href="poem34.html") &nbsp;&nbsp;&nbsp;next >>
+      p © Copyright shinichi All Rights Reserved.

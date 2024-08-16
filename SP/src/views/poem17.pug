@@ -1,0 +1,36 @@
+html(lang="ja")
+  head 
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width,initial-scale=1.0")
+    title イ
+    link(rel="stylesheet", href="/styles/poem.css")
+    link(rel="icon", href="/image/favicon.png", type="image/png")
+    script. 
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const images = document.querySelectorAll('img');
+        images.forEach((image) => {
+          image.setAttribute('draggable', 'false');
+          image.addEventListener('dragstart', (e) => {
+            e.preventDefault();
+          });
+        });
+      });
+  body 
+    main
+      h1 イ
+      
+      .lpara
+        p 垂直に、(垂直にね)、降下したあの糸に、
+        p 億単位の人の魂のイが練り込まれていること。
+        p それに鈍感すぎたのは、生理的ダメージが大きくて、感覚的に素晴らしすぎたからだ。
+        p こんなに豊かなイの前。俺は本当に、本当に、本当に、活きれてよかった。
+        p こんなに豊かなアイデアは、ない。あったら、俺そっちに行くよ。(ばしょ教えて。)
+        p おかげ様、おかげ様で意志の意味に出会えた。
+        p イ、イ、イ、イ....シンギュラリティ、瞳の
+
+    footer 
+      p.page
+        a(href="poem16.html") << back&nbsp;&nbsp;&nbsp;
+        a(href="/index.html") top
+        a(href="poem18.html") &nbsp;&nbsp;&nbsp;next >>
+      p © Copyright shinichi All Rights Reserved.
