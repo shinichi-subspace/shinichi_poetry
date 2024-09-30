@@ -72,8 +72,7 @@ body main p {
     font-size: medium;
   }
 }
-
-footer {
+body footer {
   position: fixed;
   bottom: 0;
   margin-top: 9%;
@@ -81,30 +80,30 @@ footer {
   user-select: none;
 }
 @media (max-width: 670px) {
-  footer {
+  body footer {
     font-size: 10px;
   }
 }
-footer a {
+body footer a {
   text-decoration: none;
   font-size: 25px;
   color: inherit;
 }
 @media (max-width: 670px) {
-  footer a {
+  body footer a {
     font-size: 20px;
   }
 }
 @media (min-width: 540px) and (max-width: 768px) {
-  footer a {
+  body footer a {
     font-size: 23px;
   }
 }
 @media (min-width: 769px) and (max-width: 1200px) {
-  footer a {
+  body footer a {
     font-size: 23px;
   }
 }
-footer a a:hover {
+body footer a a:hover {
   text-decoration: none;
 }
