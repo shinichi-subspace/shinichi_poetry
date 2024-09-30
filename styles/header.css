@@ -1,6 +1,11 @@
 header {
   text-align: center;
 }
+@media (min-width: 540px) and (max-width: 768px) {
+  header {
+    margin-bottom: 1%;
+  }
+}
 header .image-container {
   display: flex;
   justify-content: center;

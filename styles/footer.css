@@ -3,3 +3,18 @@ footer {
   text-align: center;
   margin-top: 5%;
 }
+@media (max-width: 670px) {
+  footer {
+    font-size: 10px;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  footer {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  footer {
+    font-size: 14px;
+  }
+}
